@@ -14,7 +14,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var p3: UILabel!
     @IBOutlet weak var p4: UILabel!
     @IBOutlet weak var p5: UILabel!
-  
+    @IBOutlet weak var p6: UILabel!
+    @IBOutlet weak var p7: UILabel!
+    @IBOutlet weak var p8: UILabel!
+    @IBOutlet weak var p9: UILabel!
+    @IBOutlet weak var p10: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         p1.text = "1.Карри"
@@ -22,6 +26,12 @@ class ViewController: UIViewController {
         p3.text = "3.Гавайская"
         p4.text = "4.Веган"
         p5.text = "5.Колбасня"
+        p6.text = "6.Пепердони"
+        p7.text = "7.Маргарита"
+        p8.text = "8.Сырная"
+        p9.text = "9.Баварская"
+        p10.text = "10.Мясницкая"
+        
     }
 
 
